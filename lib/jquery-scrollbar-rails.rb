@@ -3,7 +3,8 @@ require "jquery/scrollbar/rails/version"
 module Jquery
   module Scrollbar
     module Rails
-      # Your code goes here...
+      require 'jquery/scrollbar/rails/engine'
+      require 'jquery/scrollbar/rails/version'
     end
   end
 end
